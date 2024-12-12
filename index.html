@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+    <title>Classificador de Nível de Herói</title>
+</head>
+<body>
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <div class="container" id="start-screen">
+        <div class="input-area">
+            <h1>Crie seu herói</h1>
+            <p>Qual o seu nome?</p>
+            <input type="text" id="hero-name" placeholder="Insira pelo menos 4 caracteres">
+            <button id="start-button">Começar jornada</button>
+        </div>
+    </div>
+    <div class="character-info" id="character-screen" style="display: none">
+        <h2>Informações de personagem</h2>
+        <p id="character-name">Nome: </p>
+        <div class="icon">
+            <img src="src/images/hero.png" alt="Ícone do herói" class="hero-icon">
+        </div>
+        <p id="character-exp">XP: 0</p>
+        <p id="character-lvl">Nível: Ferro</p>
+    </div>
+    <div class="monster-screen" id="monster-fight" style="display: none;">
+        <h2>Derrote o monstro da floresta!</h2>
+        <div class="monster-icon">
+            <img src="src/images/forestmonster.png" alt="Ícone do monstro da floresta" class="monster-portrait" id="monster">
+        </div>
+        <p>Clique para causar dano</p>
+        <p class= "hp-left" id="hp-bar">HP: 5</p>
+    </div>
+    <script src="src/scripts/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C) 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 230px;
+    background-color: #1E212B;
+    opacity: 95%;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid #d4af37;
+    box-shadow: 0 4px 8px #00000033; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #F0F3BD;
+    }
+
+h1 {
+    font-family: 'Verdana', serif;
+    font-size: 40px;
+    align-items: center;
+    margin: 0 0 5px 0; 
+}
+
+p {
+    font-family: 'Verdana', serif;
+    font-size: 15px;
+}
+
+input {
+    width: 50%;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+button {
+    width: 48%; 
+    margin: 10px 0; 
+    padding: 10px;
+    font-size: 16px;
+    background-color: #D36135;
+    border-color: #de764e;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+
+}
+
+.character-info {
+    width: 400px;
+    height: 730px;
+    background-color: #1E212B;
+    color: #F0F3BD;
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    margin-left: 0;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    border: 2px solid #d4af37;
+    opacity: 95%;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.monster-screen {
+    width: 400px;
+    height: 230px;
+    background-color: #1E212B;
+    color: #F0F3BD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 95%;
+    border: 2px solid #d4af37;
+}
+
+.monster-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.monster-portrait {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
